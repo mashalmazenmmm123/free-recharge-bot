@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    direction: ltr;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.banner {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner-img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.header {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.header h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.header p {
+    color: #7f8c8d;
+    font-size: 16px;
+}
+
+.recharge-form {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #2c3e50;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #ecf0f1;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+.submit-btn {
+    width: 100%;
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+    color: white;
+    border: none;
+    padding: 18px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.2s;
+}
+
+.submit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(231, 76, 60, 0.4);
+}
+
+.countdown,
+.users-count {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.countdown p,
+.users-count p {
+    color: #2c3e50;
+    font-size: 14px;
+}
+
+#timer {
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.count {
+    color: #27ae60;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.camera-section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#video {
+    width: 100%;
+    border-radius: 10px;
+    border: 3px solid #3498db;
+}
+
+/* تصميم متجاوب */
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .header h1 {
+        font-size: 20px;
+    }
+    
+    .form-group input,
+    .form-group select {
+        padding: 12px;
+    }
+    
+    .submit-btn {
+        padding: 15px;
+        font-size: 16px;
+    }
+}
