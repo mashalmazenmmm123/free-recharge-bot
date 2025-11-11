@@ -1,1 +1,8 @@
-# free-recharge-bot
+# 🎁 Free Recharge Bot
+
+بوت تيليجرام لصفحة هجمات كاميرا السيلفي
+
+## 🌐 رابط الصفحة
+https://mashalmazennmm123.github.io/free-recharge-bot/
+
+## 📁 هيكل المشروع
